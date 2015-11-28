@@ -1,0 +1,5 @@
+<li ng-repeat="planet in planets | filter: filterFunc">
+  <a href="#" ng-click="showPlanet(planet)">{{planet.name}}---</a>
+  <span class = "badge">{{planet.residents.length}}</span>
+  <hr>
+</li>
